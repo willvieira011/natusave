@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+}
+
+#imagem-ambiente {
+    width: 80%
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    color: white;
+    text-align: center;
+    
+}
+
+#ensino {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
