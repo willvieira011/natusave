@@ -2,12 +2,21 @@ body {
     background-color: black;
 }
 
+.titulo-principal {
+    color: white;
+    padding-left: 20px;
+}
+
 #imagem-ambiente {
     width: 80%
     
 }
 
-h1 {
+.principal {
+    padding: 30px;
+}
+
+.titulo-centralizado {
     text-align: center;
     color: white;
 }
@@ -24,4 +33,26 @@ p {
 
 em strong {
     color: red;
+}
+
+.formas {
+    background: rgb(22, 0, 0);
+    padding: 20px
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+
+}
+
+.itens {
+    color: white;
+    font-style: italic;
+}
+
+.imagem-menino {
+    width: 50%
 }
