@@ -68,8 +68,8 @@ header {
 
 .caixa {
     position: relative;
-   width: 940px; 
-   margin: 0 auto;
+    width: 940px; 
+    margin: 0 auto;
 }
 
 .logo {
@@ -94,3 +94,35 @@ nav a {
     font-size: 22px;
     text-decoration: none;
 }
+
+.maneiras {
+   color: white;
+   padding: 50px;
+}
+
+.maneiras li {
+    display: inline-block;
+    text-align: center;
+    width: 21%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.maneiras h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.imagem-maneiras {
+    width:100%;
+}
+
+.paragrafo-maneiras {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0 0;
+    margin-top: 10px;
+}
+
