@@ -22,10 +22,9 @@ body {
     font-size: 40px;
 }
 
-p {
+.principal p {
     color: white;
-    text-align: center;
-    
+    text-align: center;  
 }
 
 #ensino {
@@ -95,6 +94,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: rgb(0, 255, 0);
+    text-decoration: underline;
+}
+
 .maneiras {
    color: white;
    padding: 50px;
@@ -108,6 +112,22 @@ nav a {
     margin: 0 1.5%;
     padding: 30px;
     box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    border-radius: 50px;
+    border-block-style: initial;
+    height: 320px;
+}
+
+.maneiras li:hover {
+    border-color:rgb(0, 255, 0);
+}
+
+.maneiras li:active {
+    border-color:rgb(0, 30, 0);
+}
+
+.maneiras li:hover h2 {
+    font-size: 40px;
 }
 
 .maneiras h2 {
@@ -116,7 +136,7 @@ nav a {
 }
 
 .imagem-maneiras {
-    width:100%;
+    width: 100%;
 }
 
 .paragrafo-maneiras {
@@ -126,3 +146,20 @@ nav a {
     margin-top: 10px;
 }
 
+/* css rodapé */
+
+footer {
+    background:rgb(0, 30, 0);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 40px 0; 
+}
+
+.logo-simples {
+    width: 10%;
+}
+
+.copyright {
+    font-size: 13px;
+    margin: 20px 0 0;
+}
