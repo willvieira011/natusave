@@ -163,3 +163,28 @@ footer {
     font-size: 13px;
     margin: 20px 0 0;
 }
+
+/* css da pagina de contato */
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.cadastro {
+    color:#FFFFFF;
+    margin: 40px 0;
+}
+
+.cadastro label, .cadastro p {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px
+}
+
+.cadastro input, .cadastro textarea {
+    display: block;
+    margin: 0 0 20px; 
+    padding: 10px;
+    width: 50%;
+}
